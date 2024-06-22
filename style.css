@@ -1,0 +1,37 @@
+body{
+    position: relative;
+    height: 50vh;
+}
+
+.counter{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    font-size: 50px;
+}
+.container span{
+    font-size: 50px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons .btn{
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    background-color: #333;
+    color: white;
+}
